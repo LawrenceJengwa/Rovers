@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Trackmatic</string>
+    <string name="start_rover_a">Start Rover 1</string>
+    <string name="start_rover_b">Start Rover 2</string>
+    <string name="hello">Trackmatic Rover</string>
+    <string name="splash_screen">Splash Screen</string>
+    <string name="launchermatic">LauncherMatic</string>
+
+
+</resources>

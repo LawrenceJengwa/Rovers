@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/lightGrey">
+
+    <ImageView
+        android:id="@+id/splash_id"
+        android:layout_width="335dp"
+        android:layout_height="458dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="200dp"
+        android:contentDescription="@string/splash_screen"
+        android:src="@drawable/launchermatic" />
+
+    <EditText
+        android:id="@+id/launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/splash_id"
+        android:layout_alignEnd="@+id/splash_id"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="119dp"
+        android:ems="10"
+        android:hint="@string/launchermatic"
+        android:layout_centerInParent="true"
+        android:inputType="textPersonName"
+        android:textSize="30sp"
+        android:text="@string/launchermatic"
+        android:autofillHints="@string/launchermatic" />
+
+
+</RelativeLayout>
